@@ -36,7 +36,6 @@ const GameList: React.FC = () => {
     Accept: 'application/json, text/plain, */*',
     'dev-email-address': 'gabrielcaldas7@gmail.com',
   };
-
   useEffect(() => {
     const apiTimeout = setTimeout(() => {
       setError('O servidor demorou para responder. Tente mais tarde.');
@@ -63,6 +62,7 @@ const GameList: React.FC = () => {
         setLoading(false);
       });
   }, []);
+  
 
   useEffect(() => {
     let filteredGames: Game[];
@@ -111,14 +111,18 @@ const GameList: React.FC = () => {
 
   const ErrorPopup: React.FC<{ message: string; onClose: () => void }> = ({ message, onClose }) => {
     return (
-      <div className="fixed top-1/2 left-1/2 transform -translate-y-1/2 bg-white border border-white rounded shadow-lg text-center z-50 w-96">
-        <p className="text-blue-150 mb-4">{message}</p>
-        <button className="bg-blue-150 text-white px-4 py-2 rounded" onClick={handleReloadPage}>
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white border border-white rounded-lg shadow-lg text-center z-50 w-96">
+        <p className="text-blue-150 text-xl py-6">{message}</p>
+        <button
+          className="bg-blue-150 text-white px-4 py-4 rounded-md hover:bg-blue-200"
+          onClick={handleReloadPage}
+        >
           Recarregar Página
         </button>
       </div>
     );
   };
+  
 
   const handleCloseErrorPopup = () => {
     setError('');
@@ -137,7 +141,7 @@ const GameList: React.FC = () => {
           {!loading && (
             <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           )}
-          <div className="flex flex-col md:flex-row justify-center">
+          <div className="flex flex-col-1 md:flex-row justify-center">
             <GenreList genres={genres} filterByGenre={filterByGenre} loading={loading} />
             <main className="w-full md:w-3/4 flex-grow md:ml-8">
               {loading ? (
@@ -153,7 +157,7 @@ const GameList: React.FC = () => {
                     className="border border-white text-white bg-blue-150 py-2 px-4 rounded"
                     onClick={loadMoreGames}
                   >
-                    Carregar Mais
+                    More Games
                   </button>
                 </div>
               )}
