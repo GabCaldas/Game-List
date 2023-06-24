@@ -51,7 +51,7 @@ Aqui estão algumas capturas de tela do projeto:
 
 <img src="previews/pc.png" alt="Imagem para desktop" width="600">
 
-<img src="previews/mobile.jpeg" alt="Imagem para dispositivos móveis" width="600">
+<img src="previews/mobile.jpeg" alt="Imagem para dispositivos móveis" width="400">
 
 
 
