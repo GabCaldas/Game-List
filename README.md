@@ -45,14 +45,14 @@ Tailwind CSS: biblioteca de estilos utilitários para criação de interfaces re
 React: biblioteca JavaScript para construção de interfaces de usuário
 
 
-
 ## Fotos
 
 Aqui estão algumas capturas de tela do projeto:
 
-![Imagem para desktop](./preview/pc.png | width=400)
+<img src="preview/pc.png" alt="Imagem para desktop" width="400">
 
-![Imagem para dispositivos móveis](./preview/mobile.jpeg | width=200)
+<img src="preview/mobile.jpeg" alt="Imagem para dispositivos móveis" width="200">
+
 
 
 ## Contribuição
