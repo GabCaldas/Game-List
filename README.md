@@ -49,9 +49,9 @@ React: biblioteca JavaScript para construção de interfaces de usuário
 
 Aqui estão algumas capturas de tela do projeto:
 
-<img src="preview/pc.png" alt="Imagem para desktop" width="400">
+<img src="previews/pc.png" alt="Imagem para desktop" width="400">
 
-<img src="preview/mobile.jpeg" alt="Imagem para dispositivos móveis" width="200">
+<img src="previews/mobile.jpeg" alt="Imagem para dispositivos móveis" width="200">
 
 
 
