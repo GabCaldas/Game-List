@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido como parte do processo seletivo da App Masters. É uma lista de jogos que permite filtrar os jogos por gênero. O objetivo do projeto é demonstrar habilidades em desenvolvimento web utilizando tecnologias como React.
 
 
-<img src="./preview/previewvid.gif" alt="gif do site" width="400">
+<img src="preview/previewvid.gif" alt="gif do site" width="400">
 
 ## Site
 
@@ -47,10 +47,11 @@ React: biblioteca JavaScript para construção de interfaces de usuário
 
 
 ## Fotos
+
 Aqui estão algumas capturas de tela do projeto:
 
-<img src="./preview/pc.png" alt="Imagem para desktop" width="400">
-<img src="./preview/mobile.jpeg" alt="Imagem para dispositivos móveis" width="200">
+<img src="preview/pc.png" alt="Imagem para desktop" width="400">
+<img src="preview/mobile.jpeg" alt="Imagem para dispositivos móveis" width="200">
 
 
 ## Contribuição
