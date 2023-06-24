@@ -47,7 +47,7 @@ React: biblioteca JavaScript para construção de interfaces de usuário
 
 Aqui estão algumas capturas de tela do projeto:
 
-![Captura de tela 1](/mobile.jpeg)
+![Captura de tela 1](./previews/mobile.jpeg)
 ![Captura de tela 2](caminho_para_a_foto2)
 ![Captura de tela 3](caminho_para_a_foto3)
 
