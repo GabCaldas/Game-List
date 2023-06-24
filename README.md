@@ -52,7 +52,7 @@ Aqui estão algumas capturas de tela do projeto:
 
 ![Imagem para desktop](./preview/pc.png | width=400)
 
-![Imagem para dispositivos móveis](./preview/mobile.jpeg | width=200
+![Imagem para dispositivos móveis](./preview/mobile.jpeg | width=200)
 
 
 ## Contribuição
