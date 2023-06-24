@@ -2,9 +2,9 @@
 
 Este projeto foi desenvolvido como parte do processo seletivo da App Masters. É uma lista de jogos que permite filtrar os jogos por gênero. O objetivo do projeto é demonstrar habilidades em desenvolvimento web utilizando tecnologias como React.
 
-## Vídeo
+## Site
 
-Clique [aqui]() para assistir a um vídeo demonstrativo do projeto.
+Clique [aqui](https://apppmgamelist.netlify.app/) para acessar o site!
 
 ## Funcionalidades do Projeto
 
@@ -36,7 +36,9 @@ Clique [aqui]() para assistir a um vídeo demonstrativo do projeto.
 ## Tecnologias utilizadas
 
 Next.js: framework React com funcionalidades adicionais para desenvolvimento web
+
 Tailwind CSS: biblioteca de estilos utilitários para criação de interfaces responsivas
+
 React: biblioteca JavaScript para construção de interfaces de usuário
 
 
@@ -45,18 +47,9 @@ React: biblioteca JavaScript para construção de interfaces de usuário
 
 Aqui estão algumas capturas de tela do projeto:
 
-![Captura de tela 1](caminho_para_a_foto1)
+![Captura de tela 1](./mobile.jpeg)
 ![Captura de tela 2](caminho_para_a_foto2)
 ![Captura de tela 3](caminho_para_a_foto3)
-
-## Como executar o projeto
-
-1. Certifique-se de ter o Node.js instalado em seu ambiente de desenvolvimento.
-2. Clone este repositório em sua máquina local.
-3. Acesse o diretório do projeto via terminal.
-4. Execute o comando `npm install` para instalar as dependências.
-5. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
-6. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto em execução.
 
 ## Contribuição
 
